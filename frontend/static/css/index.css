@@ -2,7 +2,16 @@ body {
     --nav-width: 200px;
     margin: 0 0 0 var(--nav-width);
     font-family: 'Quicksand', sans-serif;
-    font-size: 18px;
+    font-size: 1rem;
+    background: #b7fc7a;
+}
+.logo {
+  display: block;
+  padding: 20px 18px 200px 18px;
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 3rem;
 }
 
 .nav {
@@ -11,19 +20,20 @@ body {
     left: 0;
     width: var(--nav-width);
     height: 100vh;
-    background: #222222;
+    background: #b7fc7a;
 }
 
 .nav__link {
     display: block;
-    padding: 12px 18px;
+    padding: 40px 18px;
     text-decoration: none;
-    color: #eeeeee;
-    font-weight: 500;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 2rem;
 }
 
 .nav__link:hover {
-    background: rgba(255, 255, 255, 0.05);
+    color: rgba(100, 100, 50, 0.9);
 }
 
 #app {
@@ -34,4 +44,8 @@ body {
 
 a {
     color: #009579;
+}
+
+h1 {
+  color: #000000;
 }
