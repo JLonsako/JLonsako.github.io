@@ -8,11 +8,11 @@ export default class extends AbstractView{
 
   async getHtml(){
     return `
-      <h1>Welcome back Fam </h1>
+      <h1 id="namebar">Joshua Lonsako</h1>
+      <hr />
       <p>
-        DODODODODODODODODO
+        CODER | GAMER | FAKER
       </p>
-
     `;
   }
 }

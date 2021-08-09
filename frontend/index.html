@@ -4,16 +4,28 @@
   <meta charset="UTF-8">
   <meta name="viewpoart" content="width=device-width, initial-scale=1.0">
   <title>JL</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <link rel="stylesheet" href="/static/css/index.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <nav class="nav">
-      <a href="/" class="logo">JL</a>
-      <a href="/" class="nav__link" data-link>Dashboard</a>
-      <a href="/posts" class="nav__link" data-link>Posts</a>
-      <a href="/settings" class="nav__link" data-link>Settings</a>
-    </nav>
-    <div id="app"> </div>
+  <div class="container flex">
+    <div class="row Intro">
+      <div class="col-sm-1">
+      <nav class="nav">
+        <a href="/" class="logo">JL</a>
+        <a href="/" class="nav__link" data-link>Dashboard</a>
+        <a href="/posts" class="nav__link" data-link>Posts</a>
+        <a href="/settings" class="nav__link" data-link>Settings</a>
+      </nav>
+    </div>
+    <div class="col-sm-11">
+      <div id="app"> </div>
+    </div>
+  </div>
+  </div>
     <script type="module" src="/static/js/index.js"></script>
 </body>
